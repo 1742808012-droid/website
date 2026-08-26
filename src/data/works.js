@@ -75,6 +75,19 @@ export const works = [
     description: "日常切片式记录，用小场景呈现城市生活的轻微波动。"
   },
   {
+    id: "seven-sweet-fashion-tvc",
+    type: "video",
+    category: "商业",
+    title: "7分甜双人时尚 TVC",
+    year: "2026",
+    location: "China",
+    featured: true,
+    videoUrl: `${import.meta.env.BASE_URL}videos/7分甜双人时尚tvc.m4v`,
+    videoType: "video/mp4",
+    palette: ["#12100f", "#7a4d46", "#e3c18c"],
+    description: "一支双人时尚方向的商业 TVC 视频作品，适合展示人物状态、品牌氛围和短片节奏。"
+  },
+  {
     id: "travel-cut",
     type: "video",
     category: "旅拍",

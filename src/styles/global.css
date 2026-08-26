@@ -544,6 +544,12 @@ img {
   border-radius: 8px;
 }
 
+.video-embed video {
+  width: 100%;
+  max-height: min(78vh, 720px);
+  background: #050505;
+}
+
 .video-embed-content {
   display: grid;
   justify-items: center;
