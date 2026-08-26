@@ -11,7 +11,11 @@ export default function Home() {
   return (
     <PageTransition className="page">
       <section className="hero">
-        <img src={`${import.meta.env.BASE_URL}images/hero/hero-city-blue-hour.png`} alt="雨后蓝调城市街道摄影作品" />
+        <img
+          src={`${import.meta.env.BASE_URL}images/hero/hero-city-blue-hour-1600.jpg`}
+          alt="雨后蓝调城市街道摄影作品"
+          fetchPriority="high"
+        />
         <div className="hero-overlay" />
         <div className="hero-content">
           <p>{profile.role}</p>

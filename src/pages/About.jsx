@@ -7,7 +7,11 @@ export default function About() {
     <PageTransition className="page section page-with-header">
       <div className="about-layout">
         <div className="about-portrait">
-          <img src={`${import.meta.env.BASE_URL}images/hero/hero-city-blue-hour.png`} alt="摄影师工作氛围照" />
+          <img
+            src={`${import.meta.env.BASE_URL}images/hero/hero-city-blue-hour-1600.jpg`}
+            alt="摄影师工作氛围照"
+            loading="lazy"
+          />
         </div>
         <div className="about-copy">
           <p>About</p>

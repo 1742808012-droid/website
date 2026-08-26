@@ -16,8 +16,8 @@ export const works = [
     year: "2026",
     location: "City",
     featured: true,
-    cover: `${import.meta.env.BASE_URL}images/hero/hero-city-blue-hour.png`,
-    images: [`${import.meta.env.BASE_URL}images/hero/hero-city-blue-hour.png`],
+    cover: `${import.meta.env.BASE_URL}images/hero/hero-city-blue-hour-1600.jpg`,
+    images: [`${import.meta.env.BASE_URL}images/hero/hero-city-blue-hour-1600.jpg`],
     palette: photoPalette[0],
     description: "雨后蓝调时刻的街道，冷色天光和橱窗暖光在地面形成安静的反射。"
   },
