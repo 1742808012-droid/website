@@ -88,6 +88,18 @@ export const works = [
     description: "一支双人时尚方向的商业 TVC 视频作品，适合展示人物状态、品牌氛围和短片节奏。"
   },
   {
+    id: "seven-sweet-fashion-tvc-local",
+    type: "video",
+    category: "本地对比",
+    title: "7分甜双人时尚 TVC 本地版",
+    year: "2026",
+    location: "GitHub Pages",
+    videoUrl: `${import.meta.env.BASE_URL}videos/7分甜双人时尚tvc.m4v`,
+    videoType: "video/mp4",
+    palette: ["#0d1117", "#4f5f72", "#d7b98e"],
+    description: "同一支视频的 GitHub Pages 本地文件版本，用于和 B 站嵌入版对比加载速度。"
+  },
+  {
     id: "travel-cut",
     type: "video",
     category: "旅拍",
