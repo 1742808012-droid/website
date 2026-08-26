@@ -100,6 +100,18 @@ export const works = [
     description: "同一支视频的 GitHub Pages 本地文件版本，用于和 B 站嵌入版对比加载速度。"
   },
   {
+    id: "xinpianchang-a13184756",
+    type: "video",
+    category: "新片场",
+    title: "新片场作品 A13184756",
+    year: "2026",
+    location: "Xinpianchang",
+    videoUrl: "https://www.xinpianchang.com/a13184756?from=UserProfile",
+    platform: "xinpianchang",
+    palette: ["#121212", "#5b4a3f", "#c8b184"],
+    description: "来自新片场的视频作品链接，点击后可在新片场页面观看完整内容。"
+  },
+  {
     id: "travel-cut",
     type: "video",
     category: "旅拍",
