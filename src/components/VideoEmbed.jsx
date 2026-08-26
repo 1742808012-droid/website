@@ -3,10 +3,19 @@ import { ExternalLink, Play } from "lucide-react";
 export default function VideoEmbed({ work }) {
   const isPlaceholder = work.videoUrl?.includes("example.com");
   const isLocalVideo = work.videoUrl?.startsWith(import.meta.env.BASE_URL);
+  const isBilibili = work.platform === "bilibili" || work.videoUrl?.includes("player.bilibili.com");
 
   return (
     <div className="video-embed" style={{ background: `linear-gradient(135deg, ${work.palette[0]}, ${work.palette[1]}, ${work.palette[2]})` }}>
-      {isLocalVideo ? (
+      {isBilibili ? (
+        <iframe
+          src={work.videoUrl}
+          title={work.title}
+          allow="fullscreen; autoplay; encrypted-media; picture-in-picture"
+          allowFullScreen
+          loading="lazy"
+        />
+      ) : isLocalVideo ? (
         <video controls preload="metadata" playsInline>
           <source src={work.videoUrl} type={work.videoType || "video/mp4"} />
           当前浏览器不支持视频播放。

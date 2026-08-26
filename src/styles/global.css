@@ -550,6 +550,14 @@ img {
   background: #050505;
 }
 
+.video-embed iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 360px;
+  border: 0;
+  background: #050505;
+}
+
 .video-embed-content {
   display: grid;
   justify-items: center;

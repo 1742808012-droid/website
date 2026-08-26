@@ -82,8 +82,8 @@ export const works = [
     year: "2026",
     location: "China",
     featured: true,
-    videoUrl: `${import.meta.env.BASE_URL}videos/7分甜双人时尚tvc.m4v`,
-    videoType: "video/mp4",
+    videoUrl: "https://player.bilibili.com/player.html?bvid=BV1xU8v6HEr9&high_quality=1",
+    platform: "bilibili",
     palette: ["#12100f", "#7a4d46", "#e3c18c"],
     description: "一支双人时尚方向的商业 TVC 视频作品，适合展示人物状态、品牌氛围和短片节奏。"
   },
