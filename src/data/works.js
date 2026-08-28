@@ -80,12 +80,24 @@ export const works = [
     category: "商业",
     title: "7分甜双人时尚 TVC",
     year: "2026",
-    location: "China",
+    location: "Streamable",
     featured: true,
-    videoUrl: "https://player.bilibili.com/player.html?bvid=BV1xU8v6HEr9&high_quality=1",
-    platform: "bilibili",
+    videoUrl: "https://streamable.com/e/7cmsp9",
+    platform: "streamable",
     palette: ["#12100f", "#7a4d46", "#e3c18c"],
-    description: "一支双人时尚方向的商业 TVC 视频作品，适合展示人物状态、品牌氛围和短片节奏。"
+    description: "一支双人时尚方向的商业 TVC 视频作品，使用 Streamable 嵌入播放，页面加载更轻。"
+  },
+  {
+    id: "seven-sweet-fashion-tvc-bilibili",
+    type: "video",
+    category: "B站对比",
+    title: "7分甜双人时尚 TVC B站版",
+    year: "2026",
+    location: "Bilibili",
+    videoUrl: "https://player.bilibili.com/player.html?bvid=BV1xU8v6HEr9&high_quality=1&danmaku=0",
+    platform: "bilibili",
+    palette: ["#141113", "#5b526d", "#d7b98e"],
+    description: "同一支视频的 B 站嵌入版本，已尽量关闭默认弹幕，用于和 Streamable、本地文件加载方式对比。"
   },
   {
     id: "seven-sweet-fashion-tvc-local",

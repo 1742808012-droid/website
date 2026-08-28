@@ -4,10 +4,11 @@ export default function VideoEmbed({ work }) {
   const isPlaceholder = work.videoUrl?.includes("example.com");
   const isLocalVideo = work.videoUrl?.startsWith(import.meta.env.BASE_URL);
   const isBilibili = work.platform === "bilibili" || work.videoUrl?.includes("player.bilibili.com");
+  const isStreamable = work.platform === "streamable" || work.videoUrl?.includes("streamable.com/e/");
 
   return (
     <div className="video-embed" style={{ background: `linear-gradient(135deg, ${work.palette[0]}, ${work.palette[1]}, ${work.palette[2]})` }}>
-      {isBilibili ? (
+      {isBilibili || isStreamable ? (
         <iframe
           src={work.videoUrl}
           title={work.title}
