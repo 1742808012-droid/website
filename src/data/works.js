@@ -133,7 +133,7 @@ export const works = [
     videoUrl: "http://tkhl59nlj.hd-bkt.clouddn.com/%E6%BB%A1%E7%B1%B3%E9%85%B8%E5%A5%B6tvc%E9%A2%84%E7%83%AD.mp4",
     platform: "qiniu",
     palette: ["#15110d", "#6c5a3d", "#e0c47f"],
-    description: "七牛云对象存储视频直链。当前链接为 HTTP，适合作为外链打开；若绑定 HTTPS 域名后可改为站内原生播放器。"
+    description: "七牛云对象存储视频直链，当前按 iframe 方式嵌入展示。"
   },
   {
     id: "travel-cut",
